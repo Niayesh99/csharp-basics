@@ -1,6 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-Console.WriteLine("what's your name?");
+/*Console.WriteLine("what's your name?");
 var name =Console.ReadLine();
 Console.WriteLine($"your input is : {name} " );
 
@@ -24,3 +24,18 @@ else
 {
     Console.WriteLine("Your input is null");
 }
+*/
+
+string name="Shadow";
+string breed="Golden Retriever";
+int age = 5;
+double weight = 65.22;
+bool spayed = true;
+
+Console.WriteLine(name);
+Console.WriteLine(breed);
+Console.WriteLine(age);
+Console.WriteLine(weight);
+Console.WriteLine(spayed);
+
+
