@@ -39,7 +39,7 @@ Console.WriteLine(weight);
 Console.WriteLine(spayed);
 */
 
-int pizzaShops=4332;
+/*int pizzaShops=4332;
 
 int totalEmployees=86928;
 
@@ -48,5 +48,21 @@ decimal revenue = 390819.28m;
 Console.WriteLine(pizzaShops);
 Console.WriteLine(totalEmployees);
 Console.WriteLine(revenue );
+*/
+int userAge=25;
+
+double jupiterYears=11.86;
+
+double jupiterAge=userAge/jupiterYears;
+
+double journeyToJupiter=6.142466;
+
+double newEarthAge=userAge + journeyToJupiter;
+
+double newJupiterAge=newEarthAge/jupiterYears;
+
+Console.WriteLine(jupiterAge);
+Console.WriteLine(newEarthAge);
+Console.WriteLine(newJupiterAge);
 
 
