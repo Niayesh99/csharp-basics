@@ -74,10 +74,20 @@ steps -= 1;
 Console.WriteLine(steps);
 */
 
-int students=18;
+/*int students=18;
 
 int groupSize = 3;
 
 Console.WriteLine(students%groupSize);
+*/
+
+int numberOne = 12932;
+int numberTwo = -2828472;
+
+double numberOneSqrt = Math.Floor(Math.Sqrt(numberOne));
+
+double numberTwoSqrt = Math.Floor(Math.Sqrt(Math.Abs(numberTwo)));
+
+Console.WriteLine(Math.Min(numberTwoSqrt, numberOneSqrt));
 
 
