@@ -26,7 +26,7 @@ else
 }
 */
 
-string name="Shadow";
+/*string name="Shadow";
 string breed="Golden Retriever";
 int age = 5;
 double weight = 65.22;
@@ -37,5 +37,16 @@ Console.WriteLine(breed);
 Console.WriteLine(age);
 Console.WriteLine(weight);
 Console.WriteLine(spayed);
+*/
+
+int pizzaShops=4332;
+
+int totalEmployees=86928;
+
+decimal revenue = 390819.28m;
+
+Console.WriteLine(pizzaShops);
+Console.WriteLine(totalEmployees);
+Console.WriteLine(revenue );
 
 
