@@ -12,3 +12,4 @@ C:\Users\mahya\Niayesh projekt\csharp-basics\csharp-basics\obj\Debug\net8.0\refi
 C:\Users\mahya\Niayesh projekt\csharp-basics\csharp-basics\obj\Debug\net8.0\csharp-basics.pdb
 C:\Users\mahya\Niayesh projekt\csharp-basics\csharp-basics\obj\Debug\net8.0\csharp-basics.genruntimeconfig.cache
 C:\Users\mahya\Niayesh projekt\csharp-basics\csharp-basics\obj\Debug\net8.0\ref\csharp-basics.dll
+C:\Users\mahya\Niayesh projekt\csharp-basics\csharp-basics\obj\Debug\net8.0\csharp-basics.sourcelink.json
