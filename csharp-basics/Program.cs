@@ -65,12 +65,19 @@ Console.WriteLine(jupiterAge);
 Console.WriteLine(newEarthAge);
 Console.WriteLine(newJupiterAge);
 */
-int steps = 0;
+/*int steps = 0;
 
 steps += 2;
 
 steps -= 1;
 
 Console.WriteLine(steps);
+*/
+
+int students=18;
+
+int groupSize = 3;
+
+Console.WriteLine(students%groupSize);
 
 
