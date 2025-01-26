@@ -49,7 +49,7 @@ Console.WriteLine(pizzaShops);
 Console.WriteLine(totalEmployees);
 Console.WriteLine(revenue );
 */
-int userAge=25;
+/*int userAge=25;
 
 double jupiterYears=11.86;
 
@@ -64,5 +64,13 @@ double newJupiterAge=newEarthAge/jupiterYears;
 Console.WriteLine(jupiterAge);
 Console.WriteLine(newEarthAge);
 Console.WriteLine(newJupiterAge);
+*/
+int steps = 0;
+
+steps += 2;
+
+steps -= 1;
+
+Console.WriteLine(steps);
 
 
