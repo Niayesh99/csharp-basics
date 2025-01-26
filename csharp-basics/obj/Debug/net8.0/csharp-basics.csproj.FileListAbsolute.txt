@@ -1,0 +1,14 @@
+C:\Users\mahya\Niayesh projekt\csharp-basics\csharp-basics\bin\Debug\net8.0\csharp-basics.exe
+C:\Users\mahya\Niayesh projekt\csharp-basics\csharp-basics\bin\Debug\net8.0\csharp-basics.deps.json
+C:\Users\mahya\Niayesh projekt\csharp-basics\csharp-basics\bin\Debug\net8.0\csharp-basics.runtimeconfig.json
+C:\Users\mahya\Niayesh projekt\csharp-basics\csharp-basics\bin\Debug\net8.0\csharp-basics.dll
+C:\Users\mahya\Niayesh projekt\csharp-basics\csharp-basics\bin\Debug\net8.0\csharp-basics.pdb
+C:\Users\mahya\Niayesh projekt\csharp-basics\csharp-basics\obj\Debug\net8.0\csharp-basics.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mahya\Niayesh projekt\csharp-basics\csharp-basics\obj\Debug\net8.0\csharp-basics.AssemblyInfoInputs.cache
+C:\Users\mahya\Niayesh projekt\csharp-basics\csharp-basics\obj\Debug\net8.0\csharp-basics.AssemblyInfo.cs
+C:\Users\mahya\Niayesh projekt\csharp-basics\csharp-basics\obj\Debug\net8.0\csharp-basics.csproj.CoreCompileInputs.cache
+C:\Users\mahya\Niayesh projekt\csharp-basics\csharp-basics\obj\Debug\net8.0\csharp-basics.dll
+C:\Users\mahya\Niayesh projekt\csharp-basics\csharp-basics\obj\Debug\net8.0\refint\csharp-basics.dll
+C:\Users\mahya\Niayesh projekt\csharp-basics\csharp-basics\obj\Debug\net8.0\csharp-basics.pdb
+C:\Users\mahya\Niayesh projekt\csharp-basics\csharp-basics\obj\Debug\net8.0\csharp-basics.genruntimeconfig.cache
+C:\Users\mahya\Niayesh projekt\csharp-basics\csharp-basics\obj\Debug\net8.0\ref\csharp-basics.dll
