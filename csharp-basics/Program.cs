@@ -81,7 +81,7 @@ int groupSize = 3;
 Console.WriteLine(students%groupSize);
 */
 
-int numberOne = 12932;
+/*int numberOne = 12932;
 int numberTwo = -2828472;
 
 double numberOneSqrt = Math.Floor(Math.Sqrt(numberOne));
@@ -89,5 +89,14 @@ double numberOneSqrt = Math.Floor(Math.Sqrt(numberOne));
 double numberTwoSqrt = Math.Floor(Math.Sqrt(Math.Abs(numberTwo)));
 
 Console.WriteLine(Math.Min(numberTwoSqrt, numberOneSqrt));
+*/
 
+string firstSentence = "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.";
+// Second string variable
+string firstSpeech = "\"My dear Mr. Bennet,\" said his lady to him one day, \"have you heard that Netherfield Park is let at last?\"";
+
+// Print variable and newline
+Console.WriteLine(firstSentence);
+Console.WriteLine("\n");
+Console.WriteLine(firstSpeech);
 
