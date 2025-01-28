@@ -100,12 +100,18 @@ Console.WriteLine("\n");
 Console.WriteLine(firstSpeech);
 */
 
-string beginning = "Once upon a time";
+/*string beginning = "Once upon a time";
 string middle = "the kid climbed a tree";
 string end = "Everyone lived happily ever after";
 string story = beginning + ", " + middle + ". " + end + ".";
 Console.WriteLine(story);
 string story1 = $"{beginning} it was a beautiful day. {middle} and the birds flew through the sky. {end}";
 
-Console.WriteLine(story1);
+Console.WriteLine(story1);*/
+
+string password = "a92301j2add";
+int passwordLength = password.Length;
+int passwordCheck= password.IndexOf("!");
+Console.WriteLine($"The user password is {password}. Its length is {passwordLength} and it receives a {passwordCheck} check.");
+
 
