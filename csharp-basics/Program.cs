@@ -109,9 +109,30 @@ string story1 = $"{beginning} it was a beautiful day. {middle} and the birds fle
 
 Console.WriteLine(story1);*/
 
-string password = "a92301j2add";
+/*string password = "a92301j2add";
 int passwordLength = password.Length;
 int passwordCheck= password.IndexOf("!");
 Console.WriteLine($"The user password is {password}. Its length is {passwordLength} and it receives a {passwordCheck} check.");
+*/
 
+//BubbleSort
+static int[] Sort(int[] numbers)
+{
+    for (int i = 0; i < numbers.Length-1; i++)
+    {
+        for (int j = 0; j < numbers.Length-1 - i; j++)
+        {
+            if (numbers[j] > numbers[j + 1]) {
+                var temp = numbers[j];
+                numbers[j] = numbers[j + 1];
+                numbers[j + 1] = temp;
+            }
+
+        }
+    }
+    return numbers;
+}
+
+var sortedArray= Sort([2, 4, 1, 5, 0, 6, 2]);
+Console.WriteLine($"Sorted Array is {string.Join(" ", sortedArray)}");
 
