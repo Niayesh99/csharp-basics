@@ -137,7 +137,8 @@ var sortedArray= Sort([2, 4, 1, 5, 0, 6, 2]);
 Console.WriteLine($"Sorted Array is {string.Join(" ", sortedArray)}");
 */
 
-using System;
+//Binarysearch
+/*using System;
 
 class Program
 {
@@ -187,4 +188,46 @@ class Program
         }
     }
 }
+*/
+
+//FibonacciSequence
+
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Enter the number of Fibonacci numbers to generate: ");
+        int n = Convert.ToInt32(Console.ReadLine());
+        
+        if (n <= 0)
+        {
+            Console.WriteLine("Please enter a positive number.");
+            return;
+        }
+        
+        if (n == 1)
+        {
+            Console.WriteLine("Fibonacci series: 0");
+            return;
+        }
+        
+        int a = 0, b = 1;
+        
+        Console.WriteLine("Fibonacci series:");
+        
+        Console.Write(a + " " + b + " ");
+        
+        for (int i = 2; i < n; i++)
+        {
+            int next = a + b;    
+            Console.Write(next + " ");
+            a = b;               
+            b = next;            
+        }
+    }
+}
+
+
 
