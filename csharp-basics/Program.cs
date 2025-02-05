@@ -116,7 +116,7 @@ Console.WriteLine($"The user password is {password}. Its length is {passwordLeng
 */
 
 //BubbleSort
-static int[] Sort(int[] numbers)
+/*static int[] Sort(int[] numbers)
 {
     for (int i = 0; i < numbers.Length-1; i++)
     {
@@ -135,4 +135,56 @@ static int[] Sort(int[] numbers)
 
 var sortedArray= Sort([2, 4, 1, 5, 0, 6, 2]);
 Console.WriteLine($"Sorted Array is {string.Join(" ", sortedArray)}");
+*/
+
+using System;
+
+class Program
+{
+    static int BinarySearch(int[] sortedArray, int target)
+    {
+        int low = 0;                          
+        int high = sortedArray.Length - 1;      
+        
+        while (low <= high)
+        {
+            int mid = (low + high) / 2;
+            
+            if (sortedArray[mid] == target)
+            {
+                return mid; 
+            }
+            
+            else if (sortedArray[mid] < target)
+            {
+                low = mid + 1;
+            }
+            else
+            {
+                high = mid - 1;
+            }
+        }
+
+        return -1; 
+    }
+
+    static void Main()
+    {
+        int[] numbers = { 1, 3, 5, 7, 9, 11, 13, 15, 17, 19 };
+        
+        Console.Write("Enter a number to search: ");
+        int target = Convert.ToInt32(Console.ReadLine());
+        
+        int index = BinarySearch(numbers, target);
+        
+        if (index != -1)
+        {
+            Console.WriteLine("Number found at index: " + index);
+        }
+        else
+        {
+            Console.WriteLine("Number not found in the array.");
+        }
+    }
+}
 
